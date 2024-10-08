@@ -1,9 +1,9 @@
 body{
     margin: auto;
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     font-size: 16px;
     line-height: 32px;
 }
@@ -16,7 +16,9 @@ header{
 header h1{
     font-size: 32px;
     color: aliceblue;
-    font-family: bebas neue,sans-serif;
+    font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
     padding: 16px;
 }
 main{
