@@ -5,8 +5,8 @@ body{
 header{
     background-color: brown;
     text-align: center;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 header h1{
     font-size: 32px;
@@ -17,7 +17,7 @@ header h1{
 main{
     margin: 0 auto;
     max-width: 800px;
-    padding: 16px;
+    padding: 0 64px;
 }
 h2{
     font-family: Inter, sans-serif;
