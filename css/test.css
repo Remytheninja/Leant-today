@@ -1,6 +1,9 @@
 body{
     margin: auto;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     font-size: 16px;
     line-height: 32px;
 }
@@ -22,7 +25,10 @@ main{
     padding: 0 24px;
 }
 h2{
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     text-transform: uppercase;
 }
 main img{
