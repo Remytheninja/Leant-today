@@ -1,6 +1,8 @@
 body{
     margin: auto;
     font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
 }
 header{
     background-color: brown;
@@ -24,10 +26,10 @@ h2{
     text-transform: uppercase;
 }
 main img{
-        max-width: 100%;
-        height: auto;
-        max-height: 500px;
-        object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
 }
 ol{
     padding: 0 16px;
