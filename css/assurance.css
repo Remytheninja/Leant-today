@@ -72,6 +72,7 @@ p{
     line-height: 42px;
     font-weight: bold;
     margin: 16px;
+    text-align: center;
 }
 .paragraph-text{
     margin: 16px;
@@ -106,6 +107,9 @@ p{
     .image-contain{
         flex-direction: column;
     }
+    .image-text{
+        flex-direction: column;
+    }
 }
 .quality{
     text-align: center;
@@ -117,4 +121,29 @@ p{
 }
 .check{
     font-weight:bold;
+}
+.image-text{
+    display: flex;
+    justify-content:center;
+    column-gap: 32px;
+    padding: 8px;
+    align-items: flex-start;
+}
+.image-text img{
+    width: 75%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.image-text div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.image-text p{
+    margin: 8px 0;
+    text-align: justify;
+}
+.text-list{
+    font-weight: bold;
+    font-size: 32px;
 }
